@@ -1,0 +1,195 @@
+section {min-height: 100vh;}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding:2px;
+    background-color: rgb(219, 217, 217);
+    /* border: 2px red solid; */
+}
+
+.logo img{
+    max-height: 110px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px;
+    background: rgb(139, 226, 139);
+    font-size: 16px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navigation li{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    /* border: 2px red solid; */
+}
+
+.navigation a{
+    text-decoration: none;
+    text-align: center;
+    padding: 1em;
+    color: black;
+    /* border: 2px rgb(22, 0, 218) solid; */
+}
+
+.navigation li:hover{
+    background:  rgb(19, 175, 45);
+}
+
+/* .section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.img-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-principal img{
+    width: 90vw;
+    max-height: 45vh;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.texto{
+    margin:auto;
+    max-width: 90%;
+    padding: 10px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulo {
+    text-align: center;
+    justify-content: space-between;
+}
+
+.pailista {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /* border: 2px red solid; */
+}
+
+.lista li{
+    text-align: left;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic
+}
+
+.texto-secundario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-secundaria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10vw;
+    /* border: 2px rgb(22, 0, 218) solid; */
+}
+
+.img-secundaria-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    border: 2px rgb(19, 175, 45) solid;
+    border-radius: 25px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.img-secundaria-text img{
+    width: 25vw;
+    min-width: 200px;
+    border-radius: 10px;
+}
+
+.voltar-topo{
+    padding: 30px;
+    text-align: center;
+}
+.voltar-topo a{
+    text-decoration: none;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.voltar-topo a:hover{
+    color: rgb(0, 255, 13);
+}
+
+.galeria-produtos {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* border: 2px red solid; */
+}
+
+.galeria-produtos-card{
+    background: rgb(68, 179, 86);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.galeria-produtos-card img{
+    width: 200px;
+    align-items: center;
+    border: 2px black solid;
+    border-radius: 8px;
+}
+
+.footer {
+    display:flex;
+    justify-content:center;
+    background-color: rgb(32, 32, 32);
+}
+
+.footer-text{
+    text-align: center;
+    color: rgb(68, 179, 86);
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
